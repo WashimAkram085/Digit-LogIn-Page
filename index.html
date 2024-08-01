@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="digit logo.png">
+    <title>Digit +</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="boxl">
+            <div class="nav-item">
+                <a class="logo"><img src="digitPlusLogo.svg" alt="Logo"></a>
+            </div>
+            <div class="nav-item welcome">
+                Welcome!!
+            </div>
+        </div>
+        <div class="boxr">
+            <div class="nav-item">987654321</div>
+            <div class="nav-item">10 Mb/s</div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="loginContainer">
+            <div class="loginbanner">
+                <img src="loginBanner.webp" alt="">
+            </div>
+            <div class="cards">
+                <div class="header">
+                    <button>Mobile No.</button>
+                    <button>Authentication Page</button>
+                </div>
+                <div class="mobileLogin">
+                    <form action="#" onsubmit="return login()" method="post" class="loginForm" target="_blank">
+                        <label for="mobile_no" class="mobile_no">Mobile No. :</label>
+                        <input type="number" name="mobileNo" id="mobileNo"
+                            placeholder="0987654321" pattern="[0-9]{10}" required>
+                        <button class="otpbutton" id="otpbutton" type="button">Send OTP</button>
+                        <label for="otp" class="otp">Enter OTP :</label>
+                        <input type="number" id="otp" type="number" name="OTP" id="OTP" placeholder="XXXXXX" pattern="[0-9]{6}" required>
+                        <button class="loginButton" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <marquee direction="left" class="marque">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            suscipit magni iusto in error ea maxime, blanditiis dignissimos provident. Nemo, placeat aspernatur
+            voluptate iusto, eos quisquam dolore sed pariatur illo delectus a earum voluptatem!</marquee>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

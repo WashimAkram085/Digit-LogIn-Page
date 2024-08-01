@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background-color: #f3f3ee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70px;
+
+}
+
+.boxl {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 8%;
+}
+
+.boxr {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.nav-item img{
+    margin: 2px;
+    padding: 2px;
+}
+.welcome{
+    /* border: 2px solid red; */
+    margin-top: 8px;
+    height:11px;
+    text-align: center;
+    width: 30%;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+    border-left: 1px solid rgb(200, 184, 121);
+}
+
+.logo img{
+    height:30px;
+    width: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 100px;
+}
+.nav-item{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 30%;
+
+}
+.logo{
+    width: 50%;
+}
+.loginContainer{
+    background-color: rgb(255, 187, 0);
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.loginbanner img{
+    height: 320px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0%;
+}
+.cards{
+    background: #ffffff;
+    margin: 25px auto;
+    padding:10px;
+    border-radius: 8px;
+    position: absolute;
+    right: 10%;
+    height: 300px;
+    width: 20%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.header button{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-style: oblique;
+    background: #2e2d2d;
+    color: #f3f3ee;
+    border-radius: 5px;
+}
+.mobileLogin{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fbf8f3;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.otpbutton{
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 5px;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin-bottom: 10%;
+    background-color: #ffe104;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+.loginButton{
+    margin-top: 10px;
+    position: relative;
+    padding: 5px;
+    width: 80%;
+    height: 100;
+    margin-left: 10%;
+    background-color: #ffe104;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+.mobile_no{
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.otp{
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.marque{
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    background-color: aqua;
+    padding-top: 20px;
+}
+#mobileNo{
+    outline: 0; 
+}
+#mobileNo:focus:valid{
+    border-color:black;
+}
+#mobileNo:focus:invalid{
+    border-color:red;
+}
+#otp{
+    outline: 0; 
+}
+#otp:focus:valid{
+    border-color:black;
+}
+#otp:focus:invalid{
+    border-color:red;
+}
+
+/* main.html page css starts from here */
+
+form input{
+    border: 1px solid red;
+}

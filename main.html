@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="digit logo.png">
+    <title>Digit +</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="title">Hello!! Please enter your correct details here...</p>
+        <!-- <div class="info-form">
+            <div id="info-form">
+                <input type="text" name="name" id="name" placeholder="First_Name Last_Name" required>
+                <input type="number" name="idno" id="idno" placeholder="XXX" required>
+                <input type="date" name="dob" id="dob" placeholder="DD-MM-YYYY" min="1970-01-01" max="2025-01-01"
+                    required>
+                <button id="submit">Add to Table</button>
+            </div>
+        </div> -->
+        <div class="table">
+            <table>
+                <thead>
+                    <th>Full_Name</th>
+                    <th>ID_Number</th>
+                    <th>DOB</th>
+                    <th>Action</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody>
+                    <td><input type="text" name="name" id="name" placeholder="First_Name Last_Name" pattern="[A-Za-z]" required></td>
+                    <td><input type="number" name="idno" id="idno" placeholder="XXX" pattern="[0-9]{3}" required></td>
+                    <td><input type="date" name="dob" id="dob" placeholder="DD-MM-YYYY" min="1970-01-01" max="2025-01-01"
+                        required></td>
+                    <td><button id="submit">Add to Table</button></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
